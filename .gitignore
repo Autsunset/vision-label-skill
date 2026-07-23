@@ -1,0 +1,27 @@
+# Secrets
+env/.env
+env/*.local
+.env
+.env.*
+!.env.example
+secrets.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Local sample data / run outputs (do not ship personal images)
+images/*
+!images/.gitkeep
+**/Labels/
+**/_examples/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

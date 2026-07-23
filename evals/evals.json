@@ -1,0 +1,27 @@
+{
+  "skill_name": "vision-label-skill",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我要把 ./images 里的图片标成 YOLO 检测框，类别是 screw, nut, washer。没有示例图。请先确认参数再说明你会怎么跑（先 dry-run）。",
+      "expected_output": "Asks/confirm format=yolo, mode=bbox, classes, path; then dry-run or command plan writing to Labels/",
+      "files": [],
+      "expectations": [
+        "Does not assume person/face classes",
+        "Confirms or uses yolo + bbox + given classes",
+        "Mentions Labels output under the image folder"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "帮我做 labelme 多边形分割标注，类别 label, trademark，有示例图，图片在 ./samples。",
+      "expected_output": "mode=polygon, format=labelme, classes from user, example images handled",
+      "files": [],
+      "expectations": [
+        "Selects labelme and polygon mode",
+        "Includes class list label/trademark",
+        "Mentions example images or few-shot"
+      ]
+    }
+  ]
+}
