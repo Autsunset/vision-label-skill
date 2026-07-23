@@ -7,7 +7,7 @@
 
 **Claude Code skill** for batch **object detection / instance segmentation** labeling via any multimodal vision API. Export **YOLO · YOLO-seg · Labelme · VOC · COCO · CSV** under `<images_dir>/Labels/`.
 
-> 用外部多模态 API 给图片文件夹批量自动标注，导出 YOLO / Labelme / VOC / COCO / CSV。类别完全自定义（螺丝、标签、商标、纸卷、缺陷……），不是写死的人像部位清单。
+> 用外部多模态 API 给图片文件夹批量自动标注，导出 YOLO / Labelme / VOC / COCO / CSV。类别完全自定义（螺丝、标签、商标、纸卷、缺陷……）。
 
 **Repo:** [github.com/Autsunset/vision-label-skill](https://github.com/Autsunset/vision-label-skill)
 
