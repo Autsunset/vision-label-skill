@@ -176,6 +176,12 @@ Details: [`references/formats.md`](references/formats.md).
 - Local `images/` and `Labels/` run outputs are gitignored — do not publish private photos or credentials.
 - Spot-check labels; vision models can miss or invent boxes.
 
+## Acknowledgements
+
+本项目分享于 [Linux.do](https://linux.do) 社区。
+
+This project is shared with the [Linux.do](https://linux.do) community.
+
 ## License
 
 [MIT](LICENSE) — use freely with your own datasets and API keys.
